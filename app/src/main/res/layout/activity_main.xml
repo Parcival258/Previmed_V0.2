@@ -6,6 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@drawable/fondo"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -27,48 +28,56 @@
             android:id="@+id/btn_estado_civil"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:backgroundTint="#A61D609A"
             android:text="Estado Civil" />
 
         <Button
             android:id="@+id/btn_estado_civil_ver"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:backgroundTint="#A61D609A"
             android:text="Ver Estado Civil" />
 
         <Button
             android:id="@+id/btn_forma_pagos"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:backgroundTint="#A61D609A"
             android:text="Forma de Pagos" />
 
         <Button
             android:id="@+id/btn_forma_pagos_ver"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:backgroundTint="#A61D609A"
             android:text="Ver Forma de Pagos" />
 
         <Button
             android:id="@+id/btn_roles"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:backgroundTint="#A61D609A"
             android:text="Roles" />
 
         <Button
             android:id="@+id/btn_roles_ver"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:backgroundTint="#A61D609A"
             android:text="Ver Roles" />
 
         <Button
             android:id="@+id/btn_tipos_documento"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Tipos de Documento" />
+            android:backgroundTint="#A61D609A"
+            android:text="Añadir Tipo de Documento" />
 
         <Button
             android:id="@+id/btn_tipos_documento_ver"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:backgroundTint="#A61D609A"
             android:text="Ver Tipos de Documento" />
 
     </LinearLayout>

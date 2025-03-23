@@ -8,19 +8,16 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 
-class MainActivity : AppCompatActivity() {
+class TiposDocumentoVer : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_tipos_documento_ver)
 
-        //botons de navegación
+        //boton de navegacion
 
-        findViewById<Button>(R.id.btn_tipos_documento).setOnClickListener{
+        findViewById<Button>(R.id.btn_add_tipo_documento).setOnClickListener{
             startActivity(Intent(this, AddTipoDocumento::class.java))
-        }
-        findViewById<Button>(R.id.btn_tipos_documento_ver).setOnClickListener{
-            startActivity(Intent(this, TiposDocumentoVer::class.java))
         }
 
     }
