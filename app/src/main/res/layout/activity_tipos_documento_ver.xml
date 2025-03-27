@@ -15,7 +15,7 @@
         android:text="Tipos de coumento"
         android:textSize="24sp"
         android:textStyle="bold"
-        android:layout_marginTop="25dp"
+        android:layout_marginTop="35dp"
         android:layout_marginBottom="25dp"
         android:layout_gravity="center_horizontal"
         />
