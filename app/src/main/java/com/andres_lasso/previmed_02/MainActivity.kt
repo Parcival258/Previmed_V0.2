@@ -22,6 +22,12 @@ class MainActivity : AppCompatActivity() {
         findViewById<Button>(R.id.btn_tipos_documento_ver).setOnClickListener{
             startActivity(Intent(this, TiposDocumentoVer::class.java))
         }
+        findViewById<Button>(R.id.btn_estado_civil).setOnClickListener{
+            startActivity(Intent(this, EstadoCivil::class.java))
+        }
+        findViewById<Button>(R.id.btn_estado_civil_ver).setOnClickListener{
+            startActivity(Intent(this, EstadoCivilVer::class.java))
+        }
 
     }
 }
