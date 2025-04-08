@@ -9,7 +9,7 @@
     android:gravity="center"
     android:padding="16dp"
     android:background="@drawable/fondo"
-    tools:context=".EstadoCivil">
+    tools:context=".controller.EstadoCivil">
 
     <TextView
         android:layout_width="wrap_content"

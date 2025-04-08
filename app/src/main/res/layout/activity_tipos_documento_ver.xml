@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@drawable/fondo"
-    tools:context=".TiposDocumentoVer">
+    tools:context=".controller.TiposDocumentoVer">
 
     <TextView
         android:layout_width="wrap_content"

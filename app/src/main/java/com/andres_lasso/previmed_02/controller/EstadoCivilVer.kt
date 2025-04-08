@@ -1,9 +1,10 @@
-package com.andres_lasso.previmed_02
+package com.andres_lasso.previmed_02.controller
 
 import android.os.Bundle
 import android.widget.ArrayAdapter
 import android.widget.ListView
 import androidx.appcompat.app.AppCompatActivity
+import com.andres_lasso.previmed_02.R
 
 class EstadoCivilVer : AppCompatActivity() {
     private lateinit var listaEstadoCiviles: ListView

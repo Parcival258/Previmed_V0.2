@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".EstadoCivilVer"
+    tools:context=".controller.EstadoCivilVer"
     android:orientation="vertical"
     android:layout_gravity="center"
     android:padding="16dp"

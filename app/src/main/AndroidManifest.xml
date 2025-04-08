@@ -16,19 +16,19 @@
             android:name=".activity_pagos"
             android:exported="false" />
         <activity
-            android:name=".AddTipoDocumento"
+            android:name=".controller.AddTipoDocumento"
             android:exported="false" />
         <activity
-            android:name=".TiposDocumentoVer"
+            android:name=".controller.TiposDocumentoVer"
             android:exported="false" />
         <activity
-            android:name=".EstadoCivilVer"
+            android:name=".controller.EstadoCivilVer"
             android:exported="false" />
         <activity
-            android:name=".EstadoCivil"
+            android:name=".controller.EstadoCivil"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".controller.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

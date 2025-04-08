@@ -1,4 +1,4 @@
-package com.andres_lasso.previmed_02
+package com.andres_lasso.previmed_02.controller
 
 import android.content.Intent
 import android.os.Bundle
@@ -8,8 +8,7 @@ import android.widget.ListView
 import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
+import com.andres_lasso.previmed_02.R
 
 class TiposDocumentoVer : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
