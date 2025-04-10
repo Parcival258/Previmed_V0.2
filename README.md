@@ -1,4 +1,4 @@
-Descripción de carpetas y archivos:
+* Descripción de carpetas y archivos:
 
 // . idea /: Esta carpeta es generada por el entorno de desarrollo integrado
 (IDE) IntelliJ IDEA y contiene configuraciones específicas del proyecto,
